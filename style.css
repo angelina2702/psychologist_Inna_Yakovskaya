@@ -5,11 +5,12 @@
 .first{
     height: 50rem;
     width: 100%;
-	background-image: url("for_first_photo1.jpg");
-	display: grid;
+	background-image: url("photo_2.jpg");
+	display: flex;
+    justify-content: space-between;
+    gap: 10px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	grid-template-columns: 30% 60% 10%;
 }
 .text{
     font-size: 4.2rem;
@@ -30,12 +31,48 @@
 	width: 200px;
 	height: 70px;
 	display: flex;
-	justify-content: center;
+	justify-content: end;
 	align-items: center;
 	flex-direction: row;
-	gap: 15px;
+	padding-right: 3rem;
+    gap: 15px;
 }
-
+/* Выпадающее меню */
+.dropdown {
+    display: none;
+    position: absolute;
+   top: 60px;
+    left: 20px;
+    background: white;
+    border-radius: 6px;
+    z-index: 10;
+}
+.dropdown.open {
+    display: block;
+}
+.dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown li {
+    padding: 12px 20px;
+}
+.dropdown li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+}
+.dropdown li a:hover {
+   color: #e4b46e;
+}
+.img2 {
+	width: 3rem;
+	height: 3rem;
+	padding-top: 10px;
+    padding-left: 3rem;
+	cursor: pointer;
+}
 @media (max-width: 800px) {
 * {
 	margin: 0;
@@ -50,11 +87,11 @@ body{
 }
 .first {
 	height: 50rem;
-	background-image: url("for_first_photo1.jpg");
-	display: grid;
+	background-image: url("photo_2.jpg");
+	display: flex;
+    justify-content: space-between;
 	background-repeat: no-repeat;
     background-size: contain;
-	
 }
 .text{
     font-size: 2.2rem;
@@ -78,8 +115,44 @@ body{
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
+    padding-right: 1rem;
     gap: 9px;
 }
-
+.img2 {
+	width: 2rem;
+	height: 2rem;
+	padding-top: 10px;
+    padding-left: 0.2rem;
+}
+/* Выпадающее меню */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    z-index: 10;
+}
+.dropdown.open {
+    display: block;
+}
+.dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown li {
+    padding: 12px 20px;
+}
+.dropdown li a {
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+}
+.dropdown li a:hover {
+    color: #e4b46e;
+}
 }
 
