@@ -298,19 +298,22 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-.offer{
-  font-size: 1rem;
+.offer {
+    font-size: 0.85rem;
+    line-height: 1.2;
+}
+input[type="checkbox"] {
+    flex-shrink: 0;
+    width: 16px; /* Фиксированный размер чекбокса */
+    height: 16px;
+    margin: 0;
+    padding: 0;
 }
 label {
     display: flex;
-    align-items: flex-start; /* Изменил на flex-start */
-    gap: 8px;
-    cursor: pointer;
-}
-
-input[type="checkbox"] {
-    flex-shrink: 0; /* Запрещаем чекбоксу сжиматься */
-    margin-top: 3px; /* Небольшая корректировка по вертикали */
+    align-items: flex-start;
+    gap: 6px;
+    flex-wrap: nowrap; /* Запрещаем перенос */
 }
 form {
 	width: 20rem;
