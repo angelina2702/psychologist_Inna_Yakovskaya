@@ -77,6 +77,24 @@ body{
     padding-left: 3rem;
 	cursor: pointer;
 }
+.text1{
+ font-size: 20px;
+ padding-left: 30px;
+}
+.text2{
+ font-size: 30px;
+ padding-left: 30px;
+}
+.text3{
+ font-size: 30px;
+ padding-left: 30px;
+ padding-top: 40px;
+}
+.text4{
+ font-size: 20px;
+ padding-left: 30px;
+ padding-bottom: 40px;
+}
 @media (max-width: 800px) {
 * {
 	margin: 0;
@@ -159,6 +177,24 @@ body{
 }
 .dropdown li a:hover {
     color: #e4b46e;
+}
+.text1{
+ font-size: 15px;
+ padding-left: 10px;
+}
+.text2{
+ font-size: 15px;
+ padding-left: 10px;
+}
+.text3{
+ font-size: 10px;
+ padding-left: 10px;
+ padding-top: 15px;
+}
+.text4{
+ font-size: 15px;
+ padding-left: 10px;
+ padding-bottom: 15px;
 }
 }
 
