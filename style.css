@@ -313,6 +313,14 @@ form {
     font-size: 1.4rem;
     text-align: center;
 }
+.checkbox-label {
+    display: flex;
+    align-items: flex-start; /* Выравнивание по верху для многострочного текста */
+}
+.checkbox-label input[type="checkbox"] {
+    margin-right: 8px;
+    flex-shrink: 0; /* Чтобы чекбокс не сжимался */
+}
 .f {
 	font-size: 1rem;
 	display: flex;
