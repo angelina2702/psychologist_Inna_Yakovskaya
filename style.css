@@ -300,7 +300,30 @@ body{
 }
 .offer{
   font-size: 1rem;
-  text-align: center;  
+}
+.checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.checkbox-container input[type="checkbox"] {
+    margin: 0;
+    margin-right: 8px;
+    margin-top: 3px;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}
+.checkbox-container label {
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.checkbox-container a {
+    color: #0066cc;
+    text-decoration: underline;
 }
 form {
 	width: 20rem;
@@ -312,14 +335,6 @@ form {
 .po{
     font-size: 1.4rem;
     text-align: center;
-}
-.checkbox-label {
-    display: flex;
-    align-items: flex-start; /* Выравнивание по верху для многострочного текста */
-}
-.checkbox-label input[type="checkbox"] {
-    margin-right: 8px;
-    flex-shrink: 0; /* Чтобы чекбокс не сжимался */
 }
 .f {
 	font-size: 1rem;
