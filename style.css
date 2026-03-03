@@ -299,21 +299,7 @@ body{
 	align-items: center;
 }
 .offer {
-    font-size: 0.85rem;
-    line-height: 1.2;
-}
-input[type="checkbox"] {
-    flex-shrink: 0;
-    width: 16px; /* Фиксированный размер чекбокса */
-    height: 16px;
-    margin: 0;
-    padding: 0;
-}
-label {
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-    flex-wrap: nowrap; /* Запрещаем перенос */
+    font-size: 12px;
 }
 form {
 	width: 20rem;
