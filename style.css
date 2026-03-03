@@ -71,14 +71,14 @@ body{
     display: block;
 }
 .dropdown li a:hover {
-   color: #e4b46e;
+ color: #e4b46e;
 }
 .img2 {
-	width: 3rem;
-	height: 3rem;
-	padding-top: 10px;
-    padding-left: 3rem;
-	cursor: pointer;
+ width: 3rem;
+ height: 3rem;
+ padding-top: 10px;
+ padding-left: 3rem;
+ cursor: pointer;
 }
 .text1{
  font-size: 20px;
@@ -195,10 +195,10 @@ body{
 .text3{
  font-size: 20px;
  padding-left: 10px;
- padding-top: 5px;
+ padding-top: 15px;
 }
 .text4{
- font-size: 20px;
+ font-size: 15px;
  padding-left: 10px;
  padding-bottom: 15px;
 }
