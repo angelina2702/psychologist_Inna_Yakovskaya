@@ -31,6 +31,9 @@ body{
 .picture:hover {
 	width: 55px;
 }
+.menu{
+    height: auto;
+}
 .name3 {
 	width: 200px;
 	height: 70px;
@@ -109,8 +112,11 @@ body{
     background-image: url("fon_1.jpg");
     background-repeat: repeat;
 }
+.menu{
+    height: auto;
+}
 .first {
-	height: 50rem;
+	height: auto;
 	background-image: url("photo_2.jpg");
 	display: flex;
     justify-content: space-between;
@@ -183,16 +189,16 @@ body{
  padding-left: 10px;
 }
 .text2{
- font-size: 15px;
+ font-size: 20px;
  padding-left: 10px;
 }
 .text3{
- font-size: 15px;
+ font-size: 20px;
  padding-left: 10px;
- padding-top: 10px;
+ padding-top: 5px;
 }
 .text4{
- font-size: 15px;
+ font-size: 20px;
  padding-left: 10px;
  padding-bottom: 15px;
 }
