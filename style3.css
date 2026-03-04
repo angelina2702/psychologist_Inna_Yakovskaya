@@ -43,19 +43,14 @@ body{
  cursor: pointer;
 }
 .text{
-text-align: center;
-font-size: 2.5rem;
-font-weight: 800;
-}
-.text2{
-text-align: center;
-font-size: 1.6rem;
-font-weight: 800;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 .text1{
-font-size: 1.2rem;
-padding-bottom: 10px;
-padding-left: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
 }
 @media (max-width: 800px) {
 * {
@@ -102,19 +97,14 @@ body{
 .dropdown li a:hover {
     color: #e4b46e;
 }
-.text1{
-font-size: 0.7rem;
-padding-left: 10px;
-padding-bottom: 10px;
-}
 .text{
-text-align: center;
-font-size: 1rem;
-font-weight: 800;
+    font-size: 0.7rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
-.text2{
-text-align: center;
-font-size: 0.9rem;
-font-weight: 800;
+.text1{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
 }
 }
