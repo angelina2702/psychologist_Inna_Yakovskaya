@@ -98,10 +98,6 @@ body{
  padding-left: 30px;
  padding-bottom: 40px;
 }
-.po{
-    font-size: 2.4rem;
-    text-align: center;
-}
 .SignUp {
 	width: 100%;
 	height: 32rem;
@@ -304,9 +300,10 @@ input[type="type"] {
 	background: none;
 	border: none;
 }
-h1 {
+h2 {
 	text-align: center;
 }
+
 @media (max-width: 800px) {
 * {
 	margin: 0;
@@ -405,11 +402,17 @@ body{
  font-size: 20px;
  padding-left: 10px;
  padding-top: 15px;
+ font-weight: 800;
 }
 .text4{
  font-size: 18px;
  padding-left: 10px;
  padding-bottom: 15px;
+}
+.text5{
+ font-size: 20px;
+ padding-left: 10px;
+ font-weight: 800;
 }
 .SignUp {
 	width: 100%;
@@ -428,10 +431,6 @@ form {
 	background-color: rgb(201 232 235 / 55%);
 	display: flex;
 	flex-direction: column;
-}
-.po{
-    font-size: 1.4rem;
-    text-align: center;
 }
 .f {
 	font-size: 1rem;
@@ -616,7 +615,7 @@ input[type="type"] {
 	background: none;
     border: none;
 }
-h1 {
+h2 {
 	text-align: center;
 }
 }
