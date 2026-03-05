@@ -554,7 +554,28 @@ input[type="type"] {
 	transform: scale(1.02);
 }
 .btn-nav {
-	display: none;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: white;
+	border: none;
+	border-radius: 50%;
+	font-size: 2.3rem;
+	cursor: pointer;
+	box-shadow: 0 2px 7px 6px rgb(156 181 225);
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+}
+.btn-prev {
+	left: 1rem;
+}
+.btn-next {
+	right: 1rem;
 }
 .dots {
 	display: none;
