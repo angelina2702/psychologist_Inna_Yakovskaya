@@ -570,13 +570,13 @@ input[type="type"] {
 	align-items: center;
 	justify-content: center;
 	user-select: none;
+	padding-right: 10px;
 }
 .btn-prev {
 	left: 1rem;
 }
 .btn-next {
 	right: 1rem;
-	padding-right: 10px;
 }
 .dots {
 	display: none;
