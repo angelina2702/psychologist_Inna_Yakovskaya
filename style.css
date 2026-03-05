@@ -498,7 +498,7 @@ input[type="type"] {
 	height: 20rem;
 }
 .carousel-wrapper {
-	width: 26rem;
+	width: 24rem;
 	height: 15rem;
 	position: relative;
 	overflow: hidden;
@@ -542,7 +542,7 @@ input[type="type"] {
 	padding-right: 460px;
 }
 .img11 {
-	padding-right: 525px;
+	padding-right: 540px;
 }
 .img12 {
 	padding-right: 590px;
@@ -554,8 +554,8 @@ input[type="type"] {
 	transform: scale(1.02);
 }
 .btn-nav {
-	height: 20px;
-	width: 20px;
+	height: 25px;
+	width: 25px;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -570,7 +570,6 @@ input[type="type"] {
 	align-items: center;
 	justify-content: center;
 	user-select: none;
-	padding-right: 10px;
 }
 .btn-prev {
 	left: 1rem;
