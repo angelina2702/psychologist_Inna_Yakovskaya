@@ -305,13 +305,13 @@ input[type="type"] {
 .text6{
 	font-size: 20px;
     padding-left: 30px;
-	background-color: rgb(201 232 235 / 55%);
+}
+.text7{
+	font-size: 20px;
+    padding-bottom: 20px;
+	text-align: center;
 }
 h1 {
-	text-align: center;
-	font-family:   monospace;
-}
-h2 {
 	text-align: center;
 	font-family:   monospace;
 }
@@ -326,7 +326,7 @@ a{
 }
 .imgs{
 	display: flex;
-	justify-content: end;
+	justify-content: center;
 }
 
 @media (max-width: 800px) {
@@ -447,7 +447,11 @@ body{
 .text6{
 	font-size: 15px;
     padding-left: 10px;
-	background-color: rgb(201 232 235 / 55%);
+}
+.text7{
+	font-size: 15px;
+    padding-bottom: 10px;
+	text-align: center;
 }
 .SignUp {
 	width: 100%;
@@ -668,11 +672,7 @@ a{
 }
 .imgs{
 	display: flex;
-	justify-content: end;
-}
-h2 {
-	text-align: center;
-	font-family:   monospace;
+	justify-content: center;
 }
 }
 
