@@ -52,6 +52,16 @@ body{
     text-align: center;
     font-weight: 700;
 }
+h1 {
+	text-align: center;
+	font-family:   monospace;
+}
+p{
+	font-family:   monospace;
+}
+a{
+	font-family: monospace;
+}
 @media (max-width: 800px) {
 * {
 	margin: 0;
@@ -106,5 +116,15 @@ body{
     font-size: 1rem;
     text-align: center;
     font-weight: 700;
+}
+h1 {
+	text-align: center;
+	font-family:   monospace;
+}
+p{
+	font-family:   monospace;
+}
+a{
+	font-family: monospace;
 }
 }
