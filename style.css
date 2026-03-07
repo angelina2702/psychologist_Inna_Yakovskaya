@@ -26,7 +26,7 @@ body{
 	 1px 1px 1px rgb(233 248 255);
 }
 .picture {
-	width: 3.5rem;
+	width: 3rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -523,7 +523,7 @@ input[type="type"] {
 	padding-left: 10px;
 }
 #format {
-	width: 236px;
+	width: 249px;
 	padding: 10px 15px;
 	background-color: white;
 	border-radius: 5px;
