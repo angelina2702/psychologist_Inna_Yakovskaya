@@ -43,7 +43,10 @@ body{
  cursor: pointer;
 }
 p{
-    font-family:   monospace;
+    font-family: cursive;
+}
+a{
+    font-family: cursive;
 }
 .text{
   font-size: 20px;
@@ -73,7 +76,10 @@ p{
 	padding: 0;
 }
 p{
-    font-family:   monospace;
+    font-family: cursive;
+}
+a{
+    font-family: cursive;
 }
 body{
 	overflow-x: hidden;
