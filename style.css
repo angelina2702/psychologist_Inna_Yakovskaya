@@ -352,7 +352,7 @@ body{
 	display: flex;
     justify-content: space-between;
 	background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .text{
     font-size: 2.2rem;
