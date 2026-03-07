@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-    background-image: url("fon_1.jpg");
+    background-color: rgb(233 248 255);
     background-repeat: repeat;
 }
 /* Выпадающее меню */
@@ -59,13 +59,6 @@ padding-left: 10px;
 }
 h1 {
 	text-align: center;
-	font-family: cursive;
-}
-p{
-font-family: cursive;
-}
-a{
-	font-family: cursive;
 }
 @media (max-width: 800px) {
 * {
@@ -73,7 +66,7 @@ a{
 	padding: 0;
 }
 body{
-    background-image: url("fon_1.jpg");
+   background-color: rgb(233 248 255);
     background-repeat: repeat;
 }
 .img2 {
@@ -129,12 +122,5 @@ font-weight: 800;
 }
 h1 {
 	text-align: center;
-	font-family: cursive;
-}
-p{
-	font-family: cursive;
-}
-a{
-	font-family: cursive;
 }
 }

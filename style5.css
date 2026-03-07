@@ -42,12 +42,6 @@ body{
  padding-left: 1rem;
  cursor: pointer;
 }
-p{
-    font-family: cursive;
-}
-a{
-    font-family: cursive;
-}
 .text{
   font-size: 20px;
   padding-left: 30px;
@@ -74,12 +68,6 @@ a{
 * {
 	margin: 0;
 	padding: 0;
-}
-p{
-    font-family: cursive;
-}
-a{
-    font-family: cursive;
 }
 body{
 	overflow-x: hidden;
@@ -111,7 +99,6 @@ body{
     color: black;
     border-radius: 6px;
     z-index: 10;
-	font-family:   monospace;
 }
 .dropdown.open {
     display: block;

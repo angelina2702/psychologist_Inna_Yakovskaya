@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-    background-image: url("fon_1.jpg");
+    background-color: rgb(233 248 255);
     background-repeat: repeat;
 }
 /* Выпадающее меню */
@@ -56,19 +56,13 @@ h1 {
 	text-align: center;
 	font-family: cursive;
 }
-p{
-	font-family: cursive;
-}
-a{
-	font-family: cursive;
-}
 @media (max-width: 800px) {
 * {
 	margin: 0;
 	padding: 0;
 }
 body{
-    background-image: url("fon_1.jpg");
+    background-color: rgb(233 248 255);
     background-repeat: repeat;
 }
 .img2 {
@@ -119,12 +113,5 @@ body{
 }
 h1 {
 	text-align: center;
-	font-family: cursive;
-}
-p{
-	font-family: cursive;
-}
-a{
-	font-family: cursive;
 }
 }
