@@ -337,6 +337,11 @@ font-family: "Lucida CalligraphyС.ttf";
     padding-bottom: 20px;
 	text-align: center;
 }
+.text10{
+	font-size: 20px;
+    padding-left: 30px;
+	font-family: none;
+}
 h1 {
 	text-align: center;
 }
@@ -491,6 +496,11 @@ body{
  font-weight: 600;
 }
 .text9{
+	font-size: 15px;
+    padding-left: 10px;
+	font-family: none;
+}
+.text10{
 	font-size: 15px;
     padding-left: 10px;
 	font-family: none;
