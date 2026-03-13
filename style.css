@@ -131,33 +131,6 @@ font-weight: 800;
  padding-left: 30px;
  font-weight: 600;
 }
-.img5 {
-	padding-right: 55px;
-}
-.img6 {
-	padding-left: 20px;
-}
-.img7 {
-	padding-right: 20px;
-}
-.img8 {
-	padding-left: 30px;
-}
-.img9 {
-	padding-left: 80px;
-}
-.img10 {
-	padding-left: 150px;
-}
-.img11 {
-	padding-left: 140px;
-}
-.img12 {
-	padding-left: 190px;
-}
-.img13 {
-	padding-left: 150px;
-}
 .SignUp {
 	width: 100%;
 	height: 35rem;
@@ -239,7 +212,7 @@ input[type="type"] {
 font-family: "Lucida CalligraphyС.ttf";
 }
 #format {
-	width: 233px;
+	width: 304px;
 	padding: 10px 15px;
 	background-color: white;
 	border-radius: 5px;
@@ -603,7 +576,7 @@ input[type="type"] {
 	font-family: "Lucida CalligraphyС.ttf";
 }
 #format {
-	width: 249px;
+	width: 276px;
 	padding: 10px 15px;
 	background-color: white;
 	border-radius: 5px;
