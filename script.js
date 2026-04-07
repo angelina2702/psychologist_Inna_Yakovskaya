@@ -113,3 +113,32 @@ function handleKeyDown(e) {
 document.addEventListener("keydown", handleKeyDown);
 
 
+//Отправка в тг
+document.addEventListener('DOMContentLoaded', function() {
+const form = document.querySelector('form')
+form.addEventListener("submit", formSend);
+const TOKEN = "8470009094:AAGtDgrfP3PbdmFtljs8IXBFb7SOFdoBFyw";
+const CHAT_ID = "1098820239";
+const API_URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+async function formSend(event) {
+  event.preventDefault();  
+  let userName = document.querySelector('input[name="message"]').value;
+    let userPhone = document.querySelector('input[name="phone"]').value;
+    let userFormat = document.querySelector('select[name="format"]').value;
+    let userConsultation = document.querySelector('select[name="formats"]').value;
+
+    let message = `Новая заявка!\n\n ФИО: ${userName}\n Телефон: ${userPhone}\n Формат: ${userFormat}\n Тип консультации: ${userConsultation}`;  
+ 
+    const response = await fetch(API_URL,{   
+    method: "POST",    
+    headers: {"Content-type": "application/json"},    
+    body: JSON.stringify({ chat_id: CHAT_ID, text: message}),  
+});  
+const result = await response.json(); 
+if (result.ok) {   
+     alert("Ваше сообщение отправлено.С вами свяжутся в ближайшее время");    
+     form.reset();  
+} else alert("Не отправлено");
+}
+});

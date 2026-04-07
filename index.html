@@ -74,7 +74,7 @@
 <h1>Записаться на консультацию</h1>
 <br>
 <div class="SignUp">
-			<form action="https://api.web3forms.com/submit" method="POST">
+			<form  method="POST">
                 
 				<div>
 					<label for="name" class="f">Ваше ФИО:</label>
@@ -84,7 +84,7 @@
 					<label for="phone" class="f">Номер вашего телефона для связи:</label>
 					<input
 						id="name"
-						name="message"
+						name="phone"
 						type="tel"
 						required
 						placeholder="+375*********"
@@ -92,7 +92,7 @@
 					/><br />
 				</div>
 				<div>
-					<select id="format">
+					<select id="format" name="format">
 						<option value disabled selected>Выберите формат</option>
 						<option value="Очно">Очно</option>
 						<option value="Онлайн">Онлайн</option>
@@ -100,7 +100,7 @@
 				</div>
 				<br />
 				<div>
-					<select id="format">
+					<select id="format" name="formats">
 						<option value disabled selected>Выберите тип консультации</option>
 						<option value="Индивидуальная">Индивидуальная</option>
 						<option value="Семейная">Семейная</option>
@@ -117,13 +117,6 @@
                       <label for="policy" class="offer">Согласен(на) с <a href="index2.html">политикой конфиденциальности</a></label>
 				</div>
 				<div>
-					 <!-- Replace with your Access Key -->
-    <input type="hidden" name="access_key" value="05410057-f6f0-4562-a3bf-9c0a625808c6">
-
-    <!-- Form Inputs. Each input must have a name="" attribute -->
-
-    <!-- Custom Confirmation / Success Page -->
-    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
 					<br /><br /><br />
 					<div class="f">
 						<button type="submit" class="submit1">Отправить</button>
